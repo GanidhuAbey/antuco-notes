@@ -1,0 +1,17 @@
+{
+	"nodes":[
+		{"id":"34c6318557aa685c","x":-1960,"y":-279,"width":400,"height":400,"type":"file","file":"Antuco/Render/ECS/Entity Component System (ECS).md"},
+		{"type":"file","file":"Antuco/Render/Memory Allocator.md","id":"03d65220f0a593f1","x":-1960,"y":-1216,"width":400,"height":400},
+		{"type":"text","text":"# Rendering System","id":"4a9cf76d8f2f8198","x":-1380,"y":-1380,"width":320,"height":80,"color":"1"},
+		{"type":"file","file":"Antuco/Render/Draw Loop.md","id":"dc6347801d7c44c2","x":-1960,"y":-760,"width":400,"height":400},
+		{"type":"file","file":"Antuco/Render/PassSystem/Passes.md","id":"96c5b11625e51ad2","x":-920,"y":-1380,"width":400,"height":400},
+		{"type":"file","file":"Antuco/Render/PSO Change.md","id":"f0a05c3179ba2c8c","x":-420,"y":-1400,"width":400,"height":420}
+	],
+	"edges":[
+		{"id":"afd4f89dd200846d","fromNode":"4a9cf76d8f2f8198","fromSide":"left","toNode":"03d65220f0a593f1","toSide":"right"},
+		{"id":"d859ac6466559589","fromNode":"4a9cf76d8f2f8198","fromSide":"right","toNode":"96c5b11625e51ad2","toSide":"left"},
+		{"id":"7f01bc830c9ba360","fromNode":"96c5b11625e51ad2","fromSide":"right","toNode":"f0a05c3179ba2c8c","toSide":"left"},
+		{"id":"2322bdc9e5e57d76","fromNode":"4a9cf76d8f2f8198","fromSide":"left","toNode":"dc6347801d7c44c2","toSide":"right"},
+		{"id":"d241b53a268e0492","fromNode":"dc6347801d7c44c2","fromSide":"bottom","toNode":"34c6318557aa685c","toSide":"top"}
+	]
+}

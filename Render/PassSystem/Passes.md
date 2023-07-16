@@ -1,0 +1,3 @@
+A pass is an execution of the rendering pipeline, where the input resources are provided and the GPU is able to execute all the stages of the pipeline and write to some output resource.
+
+Each execution of the rendering pipeline is contained well enough, that we can create an abstraction for each pass to be defined seperately (of course, the resource are not independent so we must account for this). By doing this we can clean up implementations and make adding new code/refactoring a bit easier. 
